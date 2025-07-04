@@ -1,0 +1,8 @@
+yaml
+
+services:
+  - type: web
+    name: jakarta-traffic-bot
+    env: python
+    buildCommand: pip install -r requirements.txt
+    startCommand: python jakarta_traffic_bot.py
